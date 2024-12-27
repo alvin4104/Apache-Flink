@@ -1,0 +1,142 @@
+2024-12-27 02:14:30,653 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] - --------------------------------------------------------------------------------
+2024-12-27 02:14:30,656 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -  Preconfiguration: 
+2024-12-27 02:14:30,657 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] - 
+
+
+RESOURCE_PARAMS extraction logs:
+jvm_params: -Xmx1073741824 -Xms1073741824 -XX:MaxMetaspaceSize=268435456
+dynamic_configs: -D jobmanager.memory.off-heap.size=134217728b -D jobmanager.memory.jvm-overhead.min=201326592b -D jobmanager.memory.jvm-metaspace.size=268435456b -D jobmanager.memory.heap.size=1073741824b -D jobmanager.memory.jvm-overhead.max=201326592b
+logs: INFO  [] - Loading configuration property: jobmanager.rpc.address, localhost
+INFO  [] - Loading configuration property: jobmanager.rpc.port, 6123
+INFO  [] - Loading configuration property: jobmanager.memory.process.size, 1600m
+INFO  [] - Loading configuration property: taskmanager.memory.process.size, 1728m
+INFO  [] - Loading configuration property: taskmanager.numberOfTaskSlots, 4
+INFO  [] - Loading configuration property: parallelism.default, 1
+INFO  [] - Loading configuration property: jobmanager.execution.failover-strategy, region
+INFO  [] - The derived from fraction jvm overhead memory (160.000mb (167772162 bytes)) is less than its min value 192.000mb (201326592 bytes), min value will be used instead
+INFO  [] - Final Master Memory configuration:
+INFO  [] -   Total Process Memory: 1.563gb (1677721600 bytes)
+INFO  [] -     Total Flink Memory: 1.125gb (1207959552 bytes)
+INFO  [] -       JVM Heap:         1024.000mb (1073741824 bytes)
+INFO  [] -       Off-heap:         128.000mb (134217728 bytes)
+INFO  [] -     JVM Metaspace:      256.000mb (268435456 bytes)
+INFO  [] -     JVM Overhead:       192.000mb (201326592 bytes)
+
+2024-12-27 02:14:30,657 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] - --------------------------------------------------------------------------------
+2024-12-27 02:14:30,658 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -  Starting StandaloneSessionClusterEntrypoint (Version: 1.14.6, Scala: 2.12, Rev:a921a4d, Date:2022-09-09T10:18:38+02:00)
+2024-12-27 02:14:30,658 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -  OS current user: alvinnguyen41
+2024-12-27 02:14:30,658 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -  Current Hadoop/Kerberos user: <no hadoop dependency found>
+2024-12-27 02:14:30,659 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -  JVM: OpenJDK 64-Bit Server VM - Private Build - 1.8/25.432-bga
+2024-12-27 02:14:30,659 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -  Maximum heap size: 981 MiBytes
+2024-12-27 02:14:30,659 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -  JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+2024-12-27 02:14:30,659 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -  No Hadoop Dependency available
+2024-12-27 02:14:30,659 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -  JVM Options:
+2024-12-27 02:14:30,659 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     -Xmx1073741824
+2024-12-27 02:14:30,660 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     -Xms1073741824
+2024-12-27 02:14:30,660 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     -XX:MaxMetaspaceSize=268435456
+2024-12-27 02:14:30,660 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     -Dlog.file=/home/alvinnguyen41/flink-1.14.6/log/flink-alvinnguyen41-standalonesession-3-alvinnguyen41.log
+2024-12-27 02:14:30,660 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     -Dlog4j.configuration=file:/home/alvinnguyen41/flink-1.14.6/conf/log4j.properties
+2024-12-27 02:14:30,660 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     -Dlog4j.configurationFile=file:/home/alvinnguyen41/flink-1.14.6/conf/log4j.properties
+2024-12-27 02:14:30,660 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     -Dlogback.configurationFile=file:/home/alvinnguyen41/flink-1.14.6/conf/logback.xml
+2024-12-27 02:14:30,660 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -  Program Arguments:
+2024-12-27 02:14:30,661 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     --configDir
+2024-12-27 02:14:30,661 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     /home/alvinnguyen41/flink-1.14.6/conf
+2024-12-27 02:14:30,662 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     --executionMode
+2024-12-27 02:14:30,662 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     cluster
+2024-12-27 02:14:30,662 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     -D
+2024-12-27 02:14:30,662 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     jobmanager.memory.off-heap.size=134217728b
+2024-12-27 02:14:30,662 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     -D
+2024-12-27 02:14:30,662 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     jobmanager.memory.jvm-overhead.min=201326592b
+2024-12-27 02:14:30,662 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     -D
+2024-12-27 02:14:30,662 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     jobmanager.memory.jvm-metaspace.size=268435456b
+2024-12-27 02:14:30,663 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     -D
+2024-12-27 02:14:30,663 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     jobmanager.memory.heap.size=1073741824b
+2024-12-27 02:14:30,663 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     -D
+2024-12-27 02:14:30,663 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -     jobmanager.memory.jvm-overhead.max=201326592b
+2024-12-27 02:14:30,663 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] -  Classpath: /home/alvinnguyen41/flink-1.14.6/lib/flink-csv-1.14.6.jar:/home/alvinnguyen41/flink-1.14.6/lib/flink-json-1.14.6.jar:/home/alvinnguyen41/flink-1.14.6/lib/flink-shaded-zookeeper-3.4.14.jar:/home/alvinnguyen41/flink-1.14.6/lib/flink-table_2.12-1.14.6.jar:/home/alvinnguyen41/flink-1.14.6/lib/log4j-1.2-api-2.17.1.jar:/home/alvinnguyen41/flink-1.14.6/lib/log4j-api-2.17.1.jar:/home/alvinnguyen41/flink-1.14.6/lib/log4j-core-2.17.1.jar:/home/alvinnguyen41/flink-1.14.6/lib/log4j-slf4j-impl-2.17.1.jar:/home/alvinnguyen41/flink-1.14.6/lib/flink-dist_2.12-1.14.6.jar::/home/alvinnguyen41/hadoop-3.4.1/etc/hadoop:
+2024-12-27 02:14:30,663 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] - --------------------------------------------------------------------------------
+2024-12-27 02:14:30,665 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] - Registered UNIX signal handlers for [TERM, HUP, INT]
+2024-12-27 02:14:30,687 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: jobmanager.rpc.address, localhost
+2024-12-27 02:14:30,687 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: jobmanager.rpc.port, 6123
+2024-12-27 02:14:30,687 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: jobmanager.memory.process.size, 1600m
+2024-12-27 02:14:30,687 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: taskmanager.memory.process.size, 1728m
+2024-12-27 02:14:30,688 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: taskmanager.numberOfTaskSlots, 4
+2024-12-27 02:14:30,688 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: parallelism.default, 1
+2024-12-27 02:14:30,689 INFO  org.apache.flink.configuration.GlobalConfiguration           [] - Loading configuration property: jobmanager.execution.failover-strategy, region
+2024-12-27 02:14:30,735 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] - Starting StandaloneSessionClusterEntrypoint.
+2024-12-27 02:14:30,805 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] - Install default filesystem.
+2024-12-27 02:14:30,816 INFO  org.apache.flink.core.fs.FileSystem                          [] - Hadoop is not in the classpath/dependencies. The extended set of supported File Systems via Hadoop is not available.
+2024-12-27 02:14:30,873 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] - Install security context.
+2024-12-27 02:14:30,889 INFO  org.apache.flink.runtime.security.modules.HadoopModuleFactory [] - Cannot create Hadoop Security Module because Hadoop cannot be found in the Classpath.
+2024-12-27 02:14:30,893 INFO  org.apache.flink.runtime.security.modules.JaasModule         [] - Jaas file will be created as /tmp/jaas-7821256166529784115.conf.
+2024-12-27 02:14:30,900 INFO  org.apache.flink.runtime.security.contexts.HadoopSecurityContextFactory [] - Cannot install HadoopSecurityContext because Hadoop cannot be found in the Classpath.
+2024-12-27 02:14:30,903 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] - Initializing cluster services.
+2024-12-27 02:14:31,665 INFO  org.apache.flink.runtime.rpc.akka.AkkaRpcServiceUtils        [] - Trying to start actor system, external address localhost:6123, bind address 0.0.0.0:6123.
+2024-12-27 02:14:33,467 INFO  akka.event.slf4j.Slf4jLogger                                 [] - Slf4jLogger started
+2024-12-27 02:14:33,674 INFO  akka.remote.RemoteActorRefProvider                           [] - Akka Cluster not in use - enabling unsafe features anyway because `akka.remote.use-unsafe-remote-features-outside-cluster` has been enabled.
+2024-12-27 02:14:33,675 INFO  akka.remote.Remoting                                         [] - Starting remoting
+2024-12-27 02:14:34,438 ERROR akka.remote.transport.netty.NettyTransport                   [] - failed to bind to /0.0.0.0:6123, shutting down Netty transport
+2024-12-27 02:14:34,714 INFO  org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] - Shutting StandaloneSessionClusterEntrypoint down with application status FAILED. Diagnostics java.net.BindException: Could not start actor system on any port in port range 6123
+	at org.apache.flink.runtime.rpc.akka.AkkaBootstrapTools.startRemoteActorSystem(AkkaBootstrapTools.java:133)
+	at org.apache.flink.runtime.rpc.akka.AkkaRpcServiceUtils$AkkaRpcServiceBuilder.createAndStart(AkkaRpcServiceUtils.java:358)
+	at org.apache.flink.runtime.rpc.akka.AkkaRpcServiceUtils$AkkaRpcServiceBuilder.createAndStart(AkkaRpcServiceUtils.java:327)
+	at org.apache.flink.runtime.rpc.akka.AkkaRpcServiceUtils$AkkaRpcServiceBuilder.createAndStart(AkkaRpcServiceUtils.java:247)
+	at org.apache.flink.runtime.rpc.RpcUtils.createRemoteRpcService(RpcUtils.java:191)
+	at org.apache.flink.runtime.entrypoint.ClusterEntrypoint.initializeServices(ClusterEntrypoint.java:300)
+	at org.apache.flink.runtime.entrypoint.ClusterEntrypoint.runCluster(ClusterEntrypoint.java:243)
+	at org.apache.flink.runtime.entrypoint.ClusterEntrypoint.lambda$startCluster$1(ClusterEntrypoint.java:193)
+	at org.apache.flink.runtime.security.contexts.NoOpSecurityContext.runSecured(NoOpSecurityContext.java:28)
+	at org.apache.flink.runtime.entrypoint.ClusterEntrypoint.startCluster(ClusterEntrypoint.java:190)
+	at org.apache.flink.runtime.entrypoint.ClusterEntrypoint.runClusterEntrypoint(ClusterEntrypoint.java:617)
+	at org.apache.flink.runtime.entrypoint.StandaloneSessionClusterEntrypoint.main(StandaloneSessionClusterEntrypoint.java:59)
+.
+2024-12-27 02:14:34,770 ERROR org.apache.flink.util.FatalExitExceptionHandler              [] - FATAL: Thread 'flink-akka.actor.internal-dispatcher-2' produced an uncaught exception. Stopping the process...
+java.lang.NoClassDefFoundError: akka/actor/dungeon/FaultHandling$$anonfun$handleNonFatalOrInterruptedException$1
+	at akka.actor.dungeon.FaultHandling.handleNonFatalOrInterruptedException(FaultHandling.scala:334) ~[flink-rpc-akka_0740601f-5b3a-4fd8-9a5c-67a7ef7ab67a.jar:1.14.6]
+	at akka.actor.dungeon.FaultHandling.handleNonFatalOrInterruptedException$(FaultHandling.scala:334) ~[flink-rpc-akka_0740601f-5b3a-4fd8-9a5c-67a7ef7ab67a.jar:1.14.6]
+	at akka.actor.ActorCell.handleNonFatalOrInterruptedException(ActorCell.scala:411) ~[flink-rpc-akka_0740601f-5b3a-4fd8-9a5c-67a7ef7ab67a.jar:1.14.6]
+	at akka.actor.ActorCell.invoke(ActorCell.scala:551) ~[flink-rpc-akka_0740601f-5b3a-4fd8-9a5c-67a7ef7ab67a.jar:1.14.6]
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270) ~[flink-rpc-akka_0740601f-5b3a-4fd8-9a5c-67a7ef7ab67a.jar:1.14.6]
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231) ~[flink-rpc-akka_0740601f-5b3a-4fd8-9a5c-67a7ef7ab67a.jar:1.14.6]
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243) [flink-rpc-akka_0740601f-5b3a-4fd8-9a5c-67a7ef7ab67a.jar:1.14.6]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_432]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_432]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_432]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175) [?:1.8.0_432]
+2024-12-27 02:14:34,784 ERROR org.apache.flink.runtime.entrypoint.ClusterEntrypoint        [] - Could not start cluster entrypoint StandaloneSessionClusterEntrypoint.
+org.apache.flink.runtime.entrypoint.ClusterEntrypointException: Failed to initialize the cluster entrypoint StandaloneSessionClusterEntrypoint.
+	at org.apache.flink.runtime.entrypoint.ClusterEntrypoint.startCluster(ClusterEntrypoint.java:216) ~[flink-dist_2.12-1.14.6.jar:1.14.6]
+	at org.apache.flink.runtime.entrypoint.ClusterEntrypoint.runClusterEntrypoint(ClusterEntrypoint.java:617) [flink-dist_2.12-1.14.6.jar:1.14.6]
+	at org.apache.flink.runtime.entrypoint.StandaloneSessionClusterEntrypoint.main(StandaloneSessionClusterEntrypoint.java:59) [flink-dist_2.12-1.14.6.jar:1.14.6]
+Caused by: java.net.BindException: Could not start actor system on any port in port range 6123
+	at org.apache.flink.runtime.rpc.akka.AkkaBootstrapTools.startRemoteActorSystem(AkkaBootstrapTools.java:133) ~[?:?]
+	at org.apache.flink.runtime.rpc.akka.AkkaRpcServiceUtils$AkkaRpcServiceBuilder.createAndStart(AkkaRpcServiceUtils.java:358) ~[?:?]
+	at org.apache.flink.runtime.rpc.akka.AkkaRpcServiceUtils$AkkaRpcServiceBuilder.createAndStart(AkkaRpcServiceUtils.java:327) ~[?:?]
+	at org.apache.flink.runtime.rpc.akka.AkkaRpcServiceUtils$AkkaRpcServiceBuilder.createAndStart(AkkaRpcServiceUtils.java:247) ~[?:?]
+	at org.apache.flink.runtime.rpc.RpcUtils.createRemoteRpcService(RpcUtils.java:191) ~[flink-dist_2.12-1.14.6.jar:1.14.6]
+	at org.apache.flink.runtime.entrypoint.ClusterEntrypoint.initializeServices(ClusterEntrypoint.java:300) ~[flink-dist_2.12-1.14.6.jar:1.14.6]
+	at org.apache.flink.runtime.entrypoint.ClusterEntrypoint.runCluster(ClusterEntrypoint.java:243) ~[flink-dist_2.12-1.14.6.jar:1.14.6]
+	at org.apache.flink.runtime.entrypoint.ClusterEntrypoint.lambda$startCluster$1(ClusterEntrypoint.java:193) ~[flink-dist_2.12-1.14.6.jar:1.14.6]
+	at org.apache.flink.runtime.security.contexts.NoOpSecurityContext.runSecured(NoOpSecurityContext.java:28) ~[flink-dist_2.12-1.14.6.jar:1.14.6]
+	at org.apache.flink.runtime.entrypoint.ClusterEntrypoint.startCluster(ClusterEntrypoint.java:190) ~[flink-dist_2.12-1.14.6.jar:1.14.6]
+	... 2 more
+2024-12-27 02:14:34,770 ERROR org.apache.flink.util.FatalExitExceptionHandler              [] - FATAL: Thread 'flink-akka.remote.default-remote-dispatcher-5' produced an uncaught exception. Stopping the process...
+java.lang.NoClassDefFoundError: akka/actor/dungeon/FaultHandling$$anonfun$handleNonFatalOrInterruptedException$1
+	at akka.actor.dungeon.FaultHandling.handleNonFatalOrInterruptedException(FaultHandling.scala:334) ~[flink-rpc-akka_0740601f-5b3a-4fd8-9a5c-67a7ef7ab67a.jar:1.14.6]
+	at akka.actor.dungeon.FaultHandling.handleNonFatalOrInterruptedException$(FaultHandling.scala:334) ~[flink-rpc-akka_0740601f-5b3a-4fd8-9a5c-67a7ef7ab67a.jar:1.14.6]
+	at akka.actor.ActorCell.handleNonFatalOrInterruptedException(ActorCell.scala:411) ~[flink-rpc-akka_0740601f-5b3a-4fd8-9a5c-67a7ef7ab67a.jar:1.14.6]
+	at akka.actor.ActorCell.invoke(ActorCell.scala:551) ~[flink-rpc-akka_0740601f-5b3a-4fd8-9a5c-67a7ef7ab67a.jar:1.14.6]
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:270) ~[flink-rpc-akka_0740601f-5b3a-4fd8-9a5c-67a7ef7ab67a.jar:1.14.6]
+	at akka.dispatch.Mailbox.run(Mailbox.scala:231) ~[flink-rpc-akka_0740601f-5b3a-4fd8-9a5c-67a7ef7ab67a.jar:1.14.6]
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:243) [flink-rpc-akka_0740601f-5b3a-4fd8-9a5c-67a7ef7ab67a.jar:1.14.6]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_432]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_432]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_432]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175) [?:1.8.0_432]
+Caused by: java.lang.ClassNotFoundException: akka.actor.dungeon.FaultHandling$$anonfun$handleNonFatalOrInterruptedException$1
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387) ~[?:1.8.0_432]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_432]
+	at org.apache.flink.core.classloading.ComponentClassLoader.loadClassFromComponentOnly(ComponentClassLoader.java:125) ~[flink-dist_2.12-1.14.6.jar:1.14.6]
+	at org.apache.flink.core.classloading.ComponentClassLoader.loadClass(ComponentClassLoader.java:104) ~[flink-dist_2.12-1.14.6.jar:1.14.6]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_432]
+	... 11 more
