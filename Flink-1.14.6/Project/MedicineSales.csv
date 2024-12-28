@@ -1,0 +1,119 @@
+medicine_id,medicine_name,category,sales_date,sales_quantity,unit_price,address,customer,feedback,quantity,amount,sales,growth,quarterly_revenue_Q1,quarterly_revenue_Q2,quarterly_revenue_Q3,quarterly_revenue_Q4
+201,Paracetamol,Pain Relief,2024-12-01,500,1.50,"123 Main St, Ho Chi Minh City","Nguyen Van A","Very effective",500,500,750.00,10%,2000.00,2500.00,3000.00,3500.00
+202,Ibuprofen,Pain Relief,2024-12-01,300,2.00,"456 Secondary St, Hanoi","Tran Thi B","Good for headaches",300,300,600.00,5%,1500.00,1800.00,2100.00,2400.00
+203,Amoxicillin,Antibiotic,2024-12-01,200,3.00,"789 Tree St, Da Nang","Le Van C","Helped with infection",200,200,600.00,15%,1200.00,1400.00,1600.00,1800.00
+204,Loratadine,Allergy,2024-12-02,150,1.20,"321 Informal St, Hai Phong","Pham Thi D","Relieved my allergies",150,150,180.00,20%,600.00,700.00,800.00,900.00
+205,Omeprazole,Acidity,2024-12-02,100,4.50,"654 Ancient St, Can Tho","Nguyen Van E","Effective for heartburn",100,100,450.00,8%,900.00,1000.00,1100.00,1200.00
+206,Metformin,Diabetes,2024-12-03,250,2.50,"987 White St, Nha Trang","Diana Green","Helps control blood sugar",250,250,625.00,12%,1500.00,1800.00,2100.00,2400.00
+207,Simvastatin,Cholesterol,2024-12-03,180,3.50,"159 Informal St, Vung Tau","Ethan Black","Lowered my cholesterol",180,180,630.00,10%,1200.00,1400.00,1600.00,1800.00
+208,Levothyroxine,Thyroid,2024-12-04,220,4.00,"753 Tree St, Hue","Fiona Blue","Regulated my thyroid",220,220,880.00,5%,1000.00,1200.00,1400.00,1600.00
+209,Sertraline,Antidepressant,2024-12-04,130,5.00,"852 Willow St, Quy Nhon","George Red","Helped with my anxiety",130,130,650.00,15%,800.00,900.00,1000.00,1100.00
+210,Amlodipine,Hypertension,2024-12-05,170,2.75,"963 Informal St, Da Lat","Hannah Yellow","Lowered my blood pressure",170,170,467.50,10%,900.00,1100.00,1300.00,1500.00
+211,Ciprofloxacin,Antibiotic,2024-12-05,90,4.00,"147 Seed St, Phan Thiet","Ian Purple","Effective for UTIs",90,90,360.00,5%,500.00,600.00,700.00,800.00
+212,Hydrochlorothiazide,Diuretic,2024-12-06,160,1.80,"258 Walnut St, Long Xuyen","Judy Orange","Helped with fluid retention",160,160,288.00,12%,700.00,800.00,900.00,1000.00
+213,Fluticasone,Allergy,2024-12-06,140,3.20,"369 Ash St, My Tho","Kevin Pink","Great for nasal congestion",140,140,448.00,8%,600.00,700.00,800.00,900.00
+214,Montelukast,Asthma,2024-12-07,110,4.00,"480 Informal St, Bac Ninh","Laura Gray","Reduced my asthma symptoms",110,110,440.00,10%,500.00,600.00,700.00,800.00
+215,Atorvastatin,Cholesterol,2024-12-07,130,3.80,"159 Pine St, Thai Nguyen","Michael Brown","Lowered my cholesterol levels",130,130,494.00,15%,800.00,900.00,1000.00,1100.00
+216,Clopidogrel,Antiplatelet,2024-12-08,140,2.50,"258 Maple St, Vinh","Nancy White","Prevented blood clots",140,140,350.00,12%,600.00,700.00,800.00,900.00
+217,Levocetirizine,Allergy,2024-12-08,160,1.90,"369 Cedar St, Ha Long","Oscar Green","Effective for allergies",160,160,304.00,10%,700.00,800.00,900.00,1000.00
+218,Esomeprazole,Acidity,2024-12-09,120,4.20,"480 Oak St, Nam Dinh","Patricia Blue","Great for acid reflux",120,120,504.00,5%,600.00,700.00,800.00,900.00
+219,Venlafaxine,Antidepressant,2024-12-09,100,5.50,"147 Birch St, Can Tho","Quang Nguyen","Helped with depression",100,100,550.00,15%,800.00,900.00,1000.00,1100.00
+220,Alprazolam,Anxiolytic,2024-12-10,90,3.00,"258 Palm St, Phu Quoc","Rita Red","Very calming",90,90,270.00,10%,500.00,600.00,700.00,800.00
+221,Tramadol,Pain Relief,2024-12-10,150,2.50,"369 Bamboo St, Ninh Binh","Steve Black","Effective for pain relief",150,150,375.00,12%,600.00,700.00,800.00,900.00
+222,Diclofenac,Pain Relief,2024-12-11,200,3.00,"480 Willow St, Hue","Tina Yellow","Good for inflammation",200,200,600.00,8%,800.00,900.00,1000.00,1100.00
+223,Propranolol,Hypertension,2024-12-11,130,4.00,"147 Maple St, Da Nang","Uyen Tran","Helps with anxiety",130,130,520.00,10%,600.00,700.00,800.00,900.00
+224,Montelukast,Asthma,2024-12-12,110,4.00,"258 Pine St, Hanoi","Vinh Hoang","Reduced my asthma symptoms",110,110,440.00,10%,500.00,600.00,700.00,800.00
+225,Insulin,Diabetes,2024-12-12,150,5.00,"369 Coconut St, Ho Chi Minh City","Nguyen Thi Mai","Essential for diabetes management",150,150,750.00,10%,1200.00,1400.00,1600.00,1800.00
+226,Levothyroxine,Thyroid,2024-12-12,200,4.50,"480 Palm St, Hanoi","Tran Van B","Helps regulate thyroid levels",200,200,900.00,5%,1000.00,1200.00,1400.00,1600.00
+227,Clonazepam,Anxiolytic,2024-12-13,90,3.50,"147 Bamboo St, Da Nang","Hoang Minh","Very effective for anxiety",90,90,315.00,12%,500.00,600.00,700.00,800.00
+228,Omeprazole,Acidity,2024-12-13,130,4.00,"258 Oak St, Nha Trang","Nguyen Van C","Great for acid reflux",130,130,520.00,10%,600.00,700.00,800.00,900.00
+229,Sertraline,Antidepressant,2024-12-14,110,5.50,"369 Maple St, Hai Phong","Le Thi Hoa","Helped with my depression",110,110,605.00,15%,800.00,900.00,1000.00,1100.00
+230,Hydrochlorothiazide,Diuretic,2024-12-14,160,1.80,"480 Cedar St, Vung Tau","Pham Van D","Effective for fluid retention",160,160,288.00,8%,700.00,800.00,900.00,1000.00
+231,Fluticasone,Allergy,2024-12-15,140,3.20,"147 Pine St, Can Tho","Nguyen Thi Kim","Great for allergies",140,140,448.00,10%,600.00,700.00,800.00,900.00
+232,Montelukast,Asthma,2024-12-15,120,4.00,"258 Coconut St, Da Lat","Tran Van A","Reduced my asthma symptoms",120,120,480.00,12%,500.00,600.00,700.00,800.00
+233,Simvastatin,Cholesterol,2024-12-16,180,3.50,"369 Maple St, Ninh Binh","Le Van H","Lowered my cholesterol",180,180,630.00,10%,1200.00,1400.00,1600.00,1800.00
+234,Amoxicillin,Antibiotic,2024-12-16,200,3.00,"480 Oak St, Phan Thiet","Nguyen Van T","Helped with infection",200,200,600.00,15%,1200.00,1400.00,1600.00,1800.00
+235,Ibuprofen,Pain Relief,2024-12-17,300,2.00,"147 Palm St, Ho Chi Minh City","Nguyen Thi Lan","Good for pain relief",300,300,600.00,5%,1500.00,1800.00,2100.00,2400.00
+236,Paracetamol,Pain Relief,2024-12-17,500,1.50,"258 Maple St, Hanoi","Tran Van K","Very effective for fever",500,500,750.00,10%,2000.00,2500.00,3000.00,3500.00
+237,Levocetirizine,Allergy,2024-12-18,160,1.90,"369 Cedar St, Da Nang","Hoang Thi B","Effective for allergies",160,160,304.00,8%,600.00,700.00,800.00,900.00
+238,Esomeprazole,Acidity,2024-12-18,120,4.20,"480 Palm St, Nha Trang","Nguyen Van Q","Great for acid reflux",120,120,504.00,10%,600.00,700.00,800.00,900.00
+239,Venlafaxine,Antidepressant,2024-12-19,100,5.50,"147 Coconut St, Ho Chi Minh City","Tran Thi H","Helped with my depression",100,100,550.00,15%,800.00,900.00,1000.00,1100.00
+240,Alprazolam,Anxiolytic,2024-12-19,90,3.00,"258 Maple St, Hanoi","Nguyen Thi T","Very calming",90,90,270.00,10%,500.00,600.00,700.00,800.00
+241,Tramadol,Pain Relief,2024-12-20,150,2.50,"369 Oak St, Da Nang","Le Van M","Effective for pain relief",150,150,375.00,12%,600.00,700.00,800.00,900.00
+242,Diclofenac,Pain Relief,2024-12-20,200,3.00,"480 Pine St, Hai Phong","Nguyen Van S","Good for inflammation",200,200,600.00,8%,800.00,900.00,1000.00,1100.00
+243,Propranolol,Hypertension,2024-12-21,130,4.00,"147 Cedar St, Vung Tau","Tran Van N","Helps with anxiety",130,130,520.00,10%,600.00,700.00,800.00,900.00
+244,Montelukast,Asthma,2024-12-21,110,4.00,"258 Palm St, Can Tho","Nguyen Thi L","Reduced my asthma symptoms",110,110,440.00,10%,500.00,600.00,700.00,800.00
+245,Insulin,Diabetes,2024-12-22,150,5.00,"369 Coconut St, Nha Trang","Nguyen Van H","Essential for diabetes management",150,150,750.00,10%,1200.00,1400.00,1600.00,1800.00
+246,Levothyroxine,Thyroid,2024-12-22,200,4.50,"480 Palm St, Ho Chi Minh City","Tran Van A","Helps regulate thyroid levels",200,200,900.00,5%,1000.00,1200.00,1400.00,1600.00
+247,Clonazepam,Anxiolytic,2024-12-23,90,3.50,"147 Bamboo St, Da Nang","Hoang Minh","Very effective for anxiety",90,90,315.00,12%,500.00,600.00,700.00,800.00
+248,Omeprazole,Acidity,2024-12-23,130,4.00,"258 Oak St, Nha Trang","Nguyen Van C","Great for acid reflux",130,130,520.00,10%,600.00,700.00,800.00,900.00
+249,Sertraline,Antidepressant,2024-12-24,110,5.50,"369 Maple St, Hai Phong","Le Thi Hoa","Helped with my depression",110,110,605.00,15%,800.00,900.00,1000.00,1100.00
+250,Hydrochlorothiazide,Diuretic,2024-12-24,160,1.80,"480 Cedar St, Vung Tau","Pham Van D","Effective for fluid retention",160,160,288.00,8%,700.00,800.00,900.00,1000.00
+251,Fluticasone,Allergy,2024-12-25,140,3.20,"147 Pine St, Can Tho","Nguyen Thi Kim","Great for allergies",140,140,448.00,10%,600.00,700.00,800.00,900.00
+252,Montelukast,Asthma,2024-12-25,120,4.00,"258 Coconut St, Da Lat","Tran Van A","Reduced my asthma symptoms",120,120,480.00,12%,500.00,600.00,700.00,800.00
+253,Simvastatin,Cholesterol,2024-12-26,180,3.50,"369 Maple St, Ninh Binh","Le Van H","Lowered my cholesterol",180,180,630.00,10%,1200.00,1400.00,1600.00,1800.00
+254,Amoxicillin,Antibiotic,2024-12-26,200,3.00,"480 Oak St, Phan Thiet","Nguyen Van T","Helped with infection",200,200,600.00,15%,1200.00,1400.00,1600.00,1800.00
+255,Ibuprofen,Pain Relief,2024-12-27,300,2.00,"147 Palm St, Ho Chi Minh City","Nguyen Thi Lan","Good for pain relief",300,300,600.00,5%,1500.00,1800.00,2100.00,2400.00
+256,Paracetamol,Pain Relief,2024-12-27,500,1.50,"258 Maple St, Hanoi","Tran Van K","Very effective for fever",500,500,750.00,10%,2000.00,2500.00,3000.00,3500.00
+257,Levocetirizine,Allergy,2024-12-28,160,1.90,"369 Cedar St, Da Nang","Hoang Thi B","Effective for allergies",160,160,304.00,8%,600.00,700.00,800.00,900.00
+258,Esomeprazole,Acidity,2024-12-28,120,4.20,"480 Palm St, Nha Trang","Nguyen Van Q","Great for acid reflux",120,120,504.00,10%,600.00,700.00,800.00,900.00
+259,Venlafaxine,Antidepressant,2024-12-29,100,5.50,"147 Coconut St, Ho Chi Minh City","Tran Thi H","Helped with my depression",100,100,550.00,15%,800.00,900.00,1000.00,1100.00
+260,Alprazolam,Anxiolytic,2024-12-29,90,3.00,"258 Maple St, Hanoi","Nguyen Thi T","Very calming",90,90,270.00,10%,500.00,600.00,700.00,800.00
+261,Tramadol,Pain Relief,2024-12-30,150,2.50,"369 Oak St, Da Nang","Le Van M","Effective for pain relief",150,150,375.00,12%,600.00,700.00,800.00,900.00
+262,Diclofenac,Pain Relief,2024-12-30,200,3.00,"480 Pine St, Hai Phong","Nguyen Van S","Good for inflammation",200,200,600.00,8%,800.00,900.00,1000.00,1100.00
+263,Propranolol,Hypertension,2024-12-31,130,4.00,"147 Cedar St, Vung Tau","Tran Van N","Helps with anxiety",130,130,520.00,10%,600.00,700.00,800.00,900.00
+264,Montelukast,Asthma,2024-12-31,110,4.00,"258 Palm St, Can Tho","Nguyen Thi L","Reduced my asthma symptoms",110,110,440.00,10%,500.00,600.00,700.00,800.00
+265,Insulin,Diabetes,2024-12-31,150,5.00,"369 Coconut St, Nha Trang","Nguyen Van H","Essential for diabetes management",150,150,750.00,10%,1200.00,1400.00,1600.00,1800.00
+266,Levothyroxine,Thyroid,2024-12-31,200,4.50,"480 Palm St, Ho Chi Minh City","Tran Van A","Helps regulate thyroid levels",200,200,900.00,5%,1000.00,1200.00,1400.00,1600.00
+267,Clonazepam,Anxiolytic,2024-12-31,90,3.50,"147 Bamboo St, Da Nang","Hoang Minh","Very effective for anxiety",90,90,315.00,12%,500.00,600.00,700.00,800.00
+268,Omeprazole,Acidity,2024-12-31,130,4.00,"258 Oak St, Nha Trang","Nguyen Van C","Great for acid reflux",130,130,520.00,10%,600.00,700.00,800.00,900.00
+269,Sertraline,Antidepressant,2024-12-31,110,5.50,"369 Maple St, Hai Phong","Le Thi Hoa","Helped with my depression",110,110,605.00,15%,800.00,900.00,1000.00,1100.00
+270,Hydrochlorothiazide,Diuretic,2024-12-31,160,1.80,"480 Cedar St, Vung Tau","Pham Van D","Effective for fluid retention",160,160,288.00,8%,700.00,800.00,900.00,1000.00
+271,Fluticasone,Allergy,2024-12-31,140,3.20,"147 Pine St, Can Tho","Nguyen Thi Kim","Great for allergies",140,140,448.00,10%,600.00,700.00,800.00,900.00
+272,Montelukast,Asthma,2024-12-31,120,4.00,"258 Coconut St, Da Lat","Tran Van A","Reduced my asthma symptoms",120,120,480.00,12%,500.00,600.00,700.00,800.00
+273,Simvastatin,Cholesterol,2024-12-31,180,3.50,"369 Maple St, Ninh Binh","Le Van H","Lowered my cholesterol",180,180,630.00,10%,1200.00,1400.00,1600.00,1800.00
+274,Amoxicillin,Antibiotic,2024-12-31,200,3.00,"480 Oak St, Phan Thiet","Nguyen Van T","Helped with infection",200,200,600.00,15%,1200.00,1400.00,1600.00,1800.00
+275,Ibuprofen,Pain Relief,2024-12-31,300,2.00,"147 Palm St, Ho Chi Minh City","Nguyen Thi Lan","Good for pain relief",300,300,600.00,5%,1500.00,1800.00,2100.00,2400.00
+276,Paracetamol,Pain Relief,2024-12-31,500,1.50,"258 Maple St, Hanoi","Tran Van K","Very effective for fever",500,500,750.00,10%,2000.00,2500.00,3000.00,3500.00
+277,Levocetirizine,Allergy,2024-12-31,160,1.90,"369 Cedar St, Da Nang","Hoang Thi B","Effective for allergies",160,160,304.00,8%,600.00,700.00,800.00,900.00
+278,Esomeprazole,Acidity,2024-12-31,120,4.20,"480 Palm St, Nha Trang","Nguyen Van Q","Great for acid reflux",120,120,504.00,10%,600.00,700.00,800.00,900.00
+279,Venlafaxine,Antidepressant,2024-12-31,100,5.50,"147 Coconut St, Ho Chi Minh City","Tran Thi H","Helped with my depression",100,100,550.00,15%,800.00,900.00,1000.00,1100.00
+280,Alprazolam,Anxiolytic,2024-12-31,90,3.00,"258 Maple St, Hanoi","Nguyen Thi T","Very calming",90,90,270.00,10%,500.00,600.00,700.00,800.00
+281,Tramadol,Pain Relief,2024-12-31,150,2.50,"369 Oak St, Da Nang","Le Van M","Effective for pain relief",150,150,375.00,12%,600.00,700.00,800.00,900.00
+282,Diclofenac,Pain Relief,2024-12-31,200,3.00,"480 Pine St, Hai Phong","Nguyen Van S","Good for inflammation",200,200,600.00,8%,800.00,900.00,1000.00,1100.00
+283,Propranolol,Hypertension,2024-12-31,130,4.00,"147 Cedar St, Vung Tau","Tran Van N","Helps with anxiety",130,130,520.00,10%,600.00,700.00,800.00,900.00
+284,Montelukast,Asthma,2024-12-31,110,4.00,"258 Palm St, Can Tho","Nguyen Thi L","Reduced my asthma symptoms",110,110,440.00,10%,500.00,600.00,700.00,800.00
+285,Insulin,Diabetes,2024-12-31,150,5.00,"369 Coconut St, Nha Trang","Nguyen Van H","Essential for diabetes management",150,150,750.00,10%,1200.00,1400.00,1600.00,1800.00
+286,Levothyroxine,Thyroid,2024-12-31,200,4.50,"480 Palm St, Ho Chi Minh City","Tran Van A","Helps regulate thyroid levels",200,200,900.00,5%,1000.00,1200.00,1400.00,1600.00
+287,Clonazepam,Anxiolytic,2024-12-31,90,3.50,"147 Bamboo St, Da Nang","Hoang Minh","Very effective for anxiety",90,90,315.00,12%,500.00,600.00,700.00,800.00
+288,Omeprazole,Acidity,2024-12-31,130,4.00,"258 Oak St, Nha Trang","Nguyen Van C","Great for acid reflux",130,130,520.00,10%,600.00,700.00,800.00,900.00
+289,Sertraline,Antidepressant,2024-12-31,110,5.50,"369 Maple St, Hai Phong","Le Thi Hoa","Helped with my depression",110,110,605.00,15%,800.00,900.00,1000.00,1100.00
+290,Hydrochlorothiazide,Diuretic,2024-12-31,160,1.80,"480 Cedar St, Vung Tau","Pham Van D","Effective for fluid retention",160,160,288.00,8%,700.00,800.00,900.00,1000.00
+291,Fluticasone,Allergy,2024-12-31,140,3.20,"147 Pine St, Can Tho","Nguyen Thi Kim","Great for allergies",140,140,448.00,10%,600.00,700.00,800.00,900.00
+292,Montelukast,Asthma,2024-12-31,120,4.00,"258 Coconut St, Da Lat","Tran Van A","Reduced my asthma symptoms",120,120,480.00,12%,500.00,600.00,700.00,800.00
+293,Simvastatin,Cholesterol,2024-12-31,180,3.50,"369 Maple St, Ninh Binh","Le Van H","Lowered my cholesterol",180,180,630.00,10%,1200.00,1400.00,1600.00,1800.00
+294,Amoxicillin,Antibiotic,2024-12-31,200,3.00,"480 Oak St, Phan Thiet","Nguyen Van T","Helped with infection",200,200,600.00,15%,1200.00,1400.00,1600.00,1800.00
+295,Ibuprofen,Pain Relief,2024-12-31,300,2.00,"147 Palm St, Ho Chi Minh City","Nguyen Thi Lan","Good for pain relief",300,300,600.00,5%,1500.00,1800.00,2100.00,2400.00
+296,Paracetamol,Pain Relief,2024-12-31,500,1.50,"258 Maple St, Hanoi","Tran Van K","Very effective for fever",500,500,750.00,10%,2000.00,2500.00,3000.00,3500.00
+297,Levocetirizine,Allergy,2024-12-31,160,1.90,"369 Cedar St, Da Nang","Hoang Thi B","Effective for allergies",160,160,304.00,8%,600.00,700.00,800.00,900.00
+298,Esomeprazole,Acidity,2024-12-31,120,4.20,"480 Palm St, Nha Trang","Nguyen Van Q","Great for acid reflux",120,120,504.00,10%,600.00,700.00,800.00,900.00
+299,Venlafaxine,Antidepressant,2024-12-31,100,5.50,"147 Coconut St, Ho Chi Minh City","Tran Thi H","Helped with my depression",100,100,550.00,15%,800.00,900.00,1000.00,1100.00
+300,Alprazolam,Anxiolytic,2024-12-31,90,3.00,"258 Maple St, Hanoi","Nguyen Thi T","Very calming",90,90,270.00,10%,500.00,600.00,700.00,800.00
+301,Tramadol,Pain Relief,2024-12-31,150,2.50,"369 Oak St, Da Nang","Le Van M","Effective for pain relief",150,150,375.00,12%,600.00,700.00,800.00,900.00
+302,Diclofenac,Pain Relief,2024-12-31,200,3.00,"480 Pine St, Hai Phong","Nguyen Van S","Good for inflammation",200,200,600.00,8%,800.00,900.00,1000.00,1100.00
+303,Propranolol,Hypertension,2024-12-31,130,4.00,"147 Cedar St, Vung Tau","Tran Van N","Helps with anxiety",130,130,520.00,10%,600.00,700.00,800.00,900.00
+304,Montelukast,Asthma,2024-12-31,110,4.00,"258 Palm St, Can Tho","Nguyen Thi L","Reduced my asthma symptoms",110,110,440.00,10%,500.00,600.00,700.00,800.00
+305,Insulin,Diabetes,2024-12-31,150,5.00,"369 Coconut St, Nha Trang","Nguyen Van H","Essential for diabetes management",150,150,750.00,10%,1200.00,1400.00,1600.00,1800.00
+306,Levothyroxine,Thyroid,2024-12-31,200,4.50,"480 Palm St, Ho Chi Minh City","Tran Van A","Helps regulate thyroid levels",200,200,900.00,5%,1000.00,1200.00,1400.00,1600.00
+307,Clonazepam,Anxiolytic,2024-12-31,90,3.50,"147 Bamboo St, Da Nang","Hoang Minh","Very effective for anxiety",90,90,315.00,12%,500.00,600.00,700.00,800.00
+308,Omeprazole,Acidity,2024-12-31,130,4.00,"258 Oak St, Nha Trang","Nguyen Van C","Great for acid reflux",130,130,520.00,10%,600.00,700.00,800.00,900.00
+309,Sertraline,Antidepressant,2024-12-31,110,5.50,"369 Maple St, Hai Phong","Le Thi Hoa","Helped with my depression",110,110,605.00,15%,800.00,900.00,1000.00,1100.00
+310,Hydrochlorothiazide,Diuretic,2024-12-31,160,1.80,"480 Cedar St, Vung Tau","Pham Van D","Effective for fluid retention",160,160,288.00,8%,700.00,800.00,900.00,1000.00
+311,Fluticasone,Allergy,2024-12-31,140,3.20,"147 Pine St, Can Tho","Nguyen Thi Kim","Great for allergies",140,140,448.00,10%,600.00,700.00,800.00,900.00
+312,Montelukast,Asthma,2024-12-31,120,4.00,"258 Coconut St, Da Lat","Tran Van A","Reduced my asthma symptoms",120,120,480.00,12%,500.00,600.00,700.00,800.00
+313,Simvastatin,Cholesterol,2024-12-31,180,3.50,"369 Maple St, Ninh Binh","Le Van H","Lowered my cholesterol",180,180,630.00,10%,1200.00,1400.00,1600.00,1800.00
+314,Amoxicillin,Antibiotic,2024-12-31,200,3.00,"480 Oak St, Phan Thiet","Nguyen Van T","Helped with infection",200,200,600.00,15%,1200.00,1400.00,1600.00,1800.00
+315,Ibuprofen,Pain Relief,2024-12-31,300,2.00,"147 Palm St, Ho Chi Minh City","Nguyen Thi Lan","Good for pain relief",300,300,600.00,5%,1500.00,1800.00,2100.00,2400.00
+316,Paracetamol,Pain Relief,2024-12-31,500,1.50,"258 Maple St, Hanoi","Tran Van K","Very effective for fever",500,500,750.00,10%,1700.00,1200.00,2000.00,2300.00
+315,Ibuprofen,Pain Relief,2024-12-31,300,2.00,"147 Palm St, Ho Chi Minh City","Nguyen Thi Nga","Good for pain relief",3200,1200,1600.00,25%,12500.00,18200.00,21200.00,24300.00
+316,Paracetamol,Pain Relief,2024-12-31,500,1.50,"258 Maple St, Can Tho","Tran Van B","Very effective for fever",2000,1000,1050.00,20%,11700.00,11200.00,22000.00,23010.00
