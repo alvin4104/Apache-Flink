@@ -1,4 +1,4 @@
-alvinnguyen41@alvinnguyen41:~$ cd /home/alvinnguyen41/flink-1.14.6
+alvinnguyen41@alvinnguyen41:~$ cd /home/alvinnguyen41/flink-1.14.5
 alvinnguyen41@alvinnguyen41:~/flink-1.14.6$ ./bin/start-cluster.sh
 Starting cluster.
 Starting standalonesession daemon on host alvinnguyen41.
