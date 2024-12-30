@@ -1,0 +1,7 @@
+alvinnguyen41@alvinnguyen41:~$ cd /home/alvinnguyen41/flink-1.14.5
+alvinnguyen41@alvinnguyen41:~/flink-1.14.6$ ./bin/start-cluster.sh
+Starting cluster.
+Starting standalonesession daemon on host alvinnguyen41.
+Starting taskexecutor daemon on host alvinnguyen41.
+scp "/mnt/c/Users/Alvin Nguyen/IdeaProjects/Alvin24/target/Alvin24-1.0-SNAPSHOT.jar" alvinnguyen41@alvinnguyen41:/home/alvinnguyen41/flink-1.14.5 
+./bin/flink run Alvin24-1.0-SNAPSHOT.jar
