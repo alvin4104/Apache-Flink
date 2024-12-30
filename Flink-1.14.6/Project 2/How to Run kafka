@@ -1,0 +1,12 @@
+export CLASSPATH=/home/alvinnguyen41/kafka/libs/log4j-1.2.17.jar
+cp log4j-1.2.17.jar /home/alvinnguyen41/kafka/libs/
+
+cd/home/alvinnguyen41/kafka
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+cd/home/alvinnguyen41/apache-zookeeper-3.8.3-bin
+bin/zkCli.sh
+
+cd/home/alvinnguyen41/kafka
+bin/kafka-server-start.sh config/server.properties
+bin/kafka-topics.sh --create --topic shop-sphere-topic --bootstrap-server kafkahost:9092 --replication-factor 1 --partitions 1
