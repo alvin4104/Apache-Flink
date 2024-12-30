@@ -1,0 +1,92 @@
+alvinnguyen41@alvinnguyen41:~/kafka$ bin/kafka-console-consumer.sh --topic shop-sphere-topic --from-beginning --bootstrap-server kafkahost:9092
+10171,U293,P626,Yoga Block,Sports,2,14.99,29.98,2025-01-02T17:30:00Z,UK,Edinburgh
+10172,U294,P627,Smartphone Screen Cleaner,Accessories,3,9.99,29.97,2025-01-02T18:00:00Z,UK,Oxford
+10173,U295,P628,Electric Food Processor,Home Appliances,1,199.99,199.99,2025-01-02T18:30:00Z,UK,Cambridge
+10174,U296,P629,Wireless Gaming Mouse,Electronics,1,49.99,49.99,2025-01-02T19:00:00Z,UK,Brighton
+10175,U297,P630,Running Shorts,Sports,1,29.99,29.99,2025-01-02T19:30:00Z,UK,Leeds
+10176,U298,P631,Smartphone Holder,Accessories,2,14.99,29.98,2025-01-02T20:00:00Z,UK,London
+10177,U299,P632,Electric Juicer,Home Appliances,1,89.99,89.99,2025-01-02T20:30:00Z,UK,Manchester
+10178,U300,P633,Wireless Headphones,Electronics,1,149.99,149.99,2025-01-02T21:00:00Z,UK,Liverpool
+10179,U301,P634,Winter Jacket,Fashion,1,129.99,129.99,2025-01-02T21:30:00Z,UK,Newcastle
+10180,U302,P635,Smartphone Car Charger,Accessories,1,19.99,19.99,2025-01-02T22:00:00Z,UK,Nottingham
+10181,U303,P636,Electric Kettle,Home Appliances,1,39.99,39.99,2025-01-02T22:30:00Z,UK,Edinburgh
+10182,U304,P637,Wireless Router,Electronics,1,79.99,79.99,2025-01-02T23:00:00Z,UK,Oxford
+10183,U305,P638,Yoga Mat,Sports,1,39.99,39.99,2025-01-02T23:30:00Z,UK,Cambridge
+10184,U306,P639,Smartphone Lens,Accessories,2,19.99,39.98,2025-01-03T00:00:00Z,UK,Brighton
+10185,U307,P640,Electric Rice Cooker,Home Appliances,1,69.99,69.99,2025-01-03T00:30:00Z,UK,Leeds
+10186,U308,P641,Wireless Charging Pad,Electronics,1,29.99,29.99,2025-01-03T01:00:00Z,UK,London
+10187,U309,P642,Winter Scarf,Fashion,1,29.99,29.99,2025-01-03T01:30:00Z,UK,Manchester
+10188,U310,P643,Smartphone Car Mount,Accessories,1,19.99,19.99,2025-01-03T02:00:00Z,UK,Liverpool
+10189,U311,P644,Electric Grill,Home Appliances,1,149.99,149.99,2025-01-03T02:30:00Z,UK,Newcastle
+10190,U312,P645,Portable Bluetooth Speaker,Electronics,1,99.99,99.99,2025-01-03T03:00:00Z,UK,Nottingham
+10191,U313,P646,Running Shoes,Sports,1,89.99,89.99,2025-01-03T03:30:00Z,UK,Edinburgh
+10192,U314,P647,Smartphone Battery Pack,Accessories,1,39.99,39.99,2025-01-03T04:00:00Z,UK,Oxford
+10193,U315,P648,Electric Toothbrush,Home Appliances,1,79.99,79.99,2025-01-03T04:30:00Z,UK,Cambridge
+10194,U316,P649,Wireless Charging Stand,Electronics,1,29.99,29.99,2025-01-03T05:00:00Z,UK,Brighton
+10195,U317,P650,Winter Gloves,Fashion,1,19.99,19.99,2025-01-03T05:30:00Z,UK,Leeds
+10196,U318,P651,Smartphone Tripod,Accessories,1,39.99,39.99,2025-01-03T06:00:00Z,UK,London
+10197,U319,P652,Electric Skillet,Home Appliances,1,59.99,59.99,2025-01-03T06:30:00Z,UK,Manchester
+10198,U320,P653,Wireless Bluetooth Headphones,Electronics,1,99.99,99.99,2025-01-03T07:00:00Z,UK,Liverpool
+10199,U321,P654,Yoga Block,Sports,2,14.99,29.98,2025-01-03T07:30:00Z,UK,Newcastle
+10200,U322,P655,Smartphone Screen Cleaner,Accessories,3,9.99,29.97,2025-01-03T08:00:00Z,UK,Nottingham
+10201,U323,P656,Electric Food Processor,Home Appliances,1,199.99,199.99,2025-01-03T08:30:00Z,UK,Edinburgh
+10202,U324,P657,Wireless Gaming Mouse,Electronics,1,49.99,49.99,2025-01-03T09:00:00Z,UK,Oxford
+10203,U325,P658,Running Shorts,Sports,1,29.99,29.99,2025-01-03T09:30:00Z,UK,Cambridge
+10204,U326,P659,Smartphone Holder,Accessories,2,14.99,29.98,2025-01-03T10:00:00Z,UK,Brighton
+10205,U327,P660,Electric Juicer,Home Appliances,1,89.99,89.99,2025-01-03T10:30:00Z,UK,Leeds
+10206,U328,P661,Wireless Headphones,Electronics,1,149.99,149.99,2025-01-03T11:00:00Z,UK,London
+10207,U329,P662,Winter Jacket,Fashion,1,129.99,129.99,2025-01-03T11:30:00Z,UK,Manchester
+10208,U330,P663,Smartphone Car Charger,Accessories,1,19.99,19.99,2025-01-03T12:00:00Z,UK,Liverpool
+10209,U331,P664,Electric Kettle,Home Appliances,1,39.99,39.99,2025-01-03T12:30:00Z,UK,Newcastle
+10210,U332,P665,Wireless Router,Electronics,1,79.99,79.99,2025-01-03T13:00:00Z,UK,Nottingham
+10211,U333,P666,Yoga Mat,Sports,1,39.99,39.99,2025-01-03T13:30:00Z,UK,Edinburgh
+10212,U334,P667,Smartphone Lens,Accessories,2,19.99,39.98,2025-01-03T14:00:00Z,UK,Oxford
+10213,U335,P668,Electric Rice Cooker,Home Appliances,1,69.99,69.99,2025-01-03T14:30:00Z,UK,Cambridge
+10214,U336,P669,Wireless Charging Pad,Electronics,1,29.99,29.99,2025-01-03T15:00:00Z,UK,Brighton
+10215,U337,P670,Winter Scarf,Fashion,1,29.99,29.99,2025-01-03T15:30:00Z,UK,Leeds
+10216,U338,P671,Smartphone Car Mount,Accessories,1,19.99,19.99,2025-01-03T16:00:00Z,UK,London
+10217,U339,P672,Electric Grill,Home Appliances,1,149.99,149.99,2025-01-03T16:30:00Z,UK,Manchester
+10218,U340,P673,Portable Bluetooth Speaker,Electronics,1,99.99,99.99,2025-01-03T17:00:00Z,UK,Liverpool
+10219,U341,P674,Running Shoes,Sports,1,89.99,89.99,2025-01-03T17:30:00Z,UK,Newcastle
+10220,U342,P675,Smartphone Battery Pack,Accessories,1,39.99,39.99,2025-01-03T18:00:00Z,UK,Nottingham
+10221,U343,P676,Electric Toothbrush,Home Appliances,1,79.99,79.99,2025-01-03T18:30:00Z,UK,Edinburgh
+10222,U344,P677,Wireless Charging Stand,Electronics,1,29.99,29.99,2025-01-03T19:00:00Z,UK,Oxford
+10223,U345,P678,Winter Gloves,Fashion,1,19.99,19.99,2025-01-03T19:30:00Z,UK,Cambridge
+10224,U346,P679,Smartphone Tripod,Accessories,1,39.99,39.99,2025-01-03T20:00:00Z,UK,Brighton
+10225,U347,P680,Electric Skillet,Home Appliances,1,59.99,59.99,2025-01-03T20:30:00Z,UK,Leeds
+10226,U348,P681,Wireless Bluetooth Headphones,Electronics,1,99.99,99.99,2025-01-03T21:00:00Z,UK,London
+10227,U349,P682,Yoga Block,Sports,2,14.99,29.98,2025-01-03T21:30:00Z,UK,Manchester
+10228,U350,P683,Smartphone Screen Cleaner,Accessories,3,9.99,29.97,2025-01-03T22:00:00Z,UK,Liverpool
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
