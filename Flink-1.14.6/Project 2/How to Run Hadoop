@@ -1,0 +1,9 @@
+# Hadoop
+hdfs namenode -format
+start-all.sh
+hdfs dfs -mkdir /user/alvinnguyen41/ShopSphere/input
+hdfs dfs -put /mnt/c/ShopSphere_UK_Data.csv /user/alvinnguyen41/ShopSphere/input
+ls -l src/main/java/org/ShopSphereFlinkKafka/
+javac -cp "$HADOOP_HOME/share/hadoop/common/*:$HADOOP_HOME/share/hadoop/mapreduce/*:$HADOOP_HOME/share/hadoop/hdfs/*" -d . src/main/java/org/ShopSphereFlinkKafka/*.java
+hadoop jar Alvin24-1.0-SNAPSHOT.jar org.ShopSphereFlinkKafka.ShopSphereFlinkKafka.java /user/alvinnguyen41/ShopSphere/input /user/alvinnguyen41/ShopSphere/output
+hdfs dfs -cat /user/alvin/output/part-r-00000
