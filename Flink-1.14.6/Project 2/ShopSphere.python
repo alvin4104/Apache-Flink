@@ -1,0 +1,14 @@
+from pyspark.sql import SparkSession
+
+# Khởi tạo SparkSession
+spark = SparkSession.builder \
+    .appName("ShopSphereAnalysis") \
+    .config("spark.hadoop.fs.defaultFS", "hdfs://localhost:9000") \
+    .config("spark.master", "local[*]") \
+    .getOrCreate()
+
+# Đọc dữ liệu từ HDFS
+data = spark.read.text("hdfs://localhost:9000/user/alvin/ShopSphere/output/")
+
+# Hiển thị dữ liệu
+data.show()
