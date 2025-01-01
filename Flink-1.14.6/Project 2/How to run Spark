@@ -1,0 +1,8 @@
+#SPARK
+spark-shell
+
+#Jupyter notebook
+cd ~/pyspark_env
+python3 -m venv venv
+source venv/bin/activate
+jupyter notebook
