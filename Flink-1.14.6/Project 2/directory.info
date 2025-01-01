@@ -1,0 +1,60 @@
+ls -l:
+total 64
+lrwxrwxrwx  1 alvinnguyen41 alvinnguyen41   140 Jan  1 12:39 Alvin24-1.0-SNAPSHOT.jar -> /tmp/hadoop-alvinnguyen41/nm-local-dir/usercache/alvinnguyen41/appcache/application_1735734892238_0001/filecache/16/Alvin24-1.0-SNAPSHOT.jar
+-rw-r--r--  1 alvinnguyen41 alvinnguyen41    74 Jan  1 12:39 container_tokens
+-rwx------  1 alvinnguyen41 alvinnguyen41   768 Jan  1 12:39 default_container_executor.sh
+-rwx------  1 alvinnguyen41 alvinnguyen41   713 Jan  1 12:39 default_container_executor_session.sh
+lrwxrwxrwx  1 alvinnguyen41 alvinnguyen41   185 Jan  1 12:39 flink-conf.yaml -> /tmp/hadoop-alvinnguyen41/nm-local-dir/usercache/alvinnguyen41/appcache/application_1735734892238_0001/filecache/10/application_1735734892238_0001-flink-conf.yaml2262773656697429789.tmp
+lrwxrwxrwx  1 alvinnguyen41 alvinnguyen41   142 Jan  1 12:39 flink-dist_2.12-1.14.5.jar -> /tmp/hadoop-alvinnguyen41/nm-local-dir/usercache/alvinnguyen41/appcache/application_1735734892238_0001/filecache/24/flink-dist_2.12-1.14.5.jar
+lrwxrwxrwx  1 alvinnguyen41 alvinnguyen41   168 Jan  1 12:39 job.graph -> /tmp/hadoop-alvinnguyen41/nm-local-dir/usercache/alvinnguyen41/appcache/application_1735734892238_0001/filecache/15/application_1735734892238_0001606754554455563302.tmp
+-rwx------  1 alvinnguyen41 alvinnguyen41 17318 Jan  1 12:39 launch_container.sh
+drwxrwxr-x  2 alvinnguyen41 alvinnguyen41  4096 Jan  1 12:39 lib
+lrwxrwxrwx  1 alvinnguyen41 alvinnguyen41   132 Jan  1 12:39 log4j.properties -> /tmp/hadoop-alvinnguyen41/nm-local-dir/usercache/alvinnguyen41/appcache/application_1735734892238_0001/filecache/29/log4j.properties
+drwxrwxr-x 10 alvinnguyen41 alvinnguyen41  4096 Jan  1 12:39 plugins
+drwx--x---  2 alvinnguyen41 alvinnguyen41  4096 Jan  1 12:39 tmp
+find -L . -maxdepth 5 -ls:
+   179721      4 drwx--x---   5 alvinnguyen41 alvinnguyen41     4096 Jan  1 12:39 .
+   179723      4 drwx--x---   2 alvinnguyen41 alvinnguyen41     4096 Jan  1 12:39 ./tmp
+   179683 132912 -r-x------   1 alvinnguyen41 alvinnguyen41 136098285 Jan  1 12:39 ./flink-dist_2.12-1.14.5.jar
+   179698      4 -r-x------   1 alvinnguyen41 alvinnguyen41      2694 Jan  1 12:39 ./log4j.properties
+   179738      4 drwxrwxr-x  10 alvinnguyen41 alvinnguyen41      4096 Jan  1 12:39 ./plugins
+   179755      4 drwxrwxr-x   2 alvinnguyen41 alvinnguyen41      4096 Jan  1 12:39 ./plugins/metrics-jmx
+   179169     20 -r-x------   1 alvinnguyen41 alvinnguyen41     17956 Jan  1 12:39 ./plugins/metrics-jmx/flink-metrics-jmx-1.14.5.jar
+   179776      4 drwxrwxr-x   2 alvinnguyen41 alvinnguyen41      4096 Jan  1 12:39 ./plugins/metrics-prometheus
+   179704    100 -r-x------   1 alvinnguyen41 alvinnguyen41    101136 Jan  1 12:39 ./plugins/metrics-prometheus/flink-metrics-prometheus-1.14.5.jar
+   179680      4 -r-x------   1 alvinnguyen41 alvinnguyen41       654 Jan  1 12:39 ./plugins/README.txt
+   179771      4 drwxrwxr-x   2 alvinnguyen41 alvinnguyen41      4096 Jan  1 12:39 ./plugins/metrics-influx
+   179712    964 -r-x------   1 alvinnguyen41 alvinnguyen41    983283 Jan  1 12:39 ./plugins/metrics-influx/flink-metrics-influxdb-1.14.5.jar
+   179767      4 drwxrwxr-x   2 alvinnguyen41 alvinnguyen41      4096 Jan  1 12:39 ./plugins/metrics-slf4j
+   179692     12 -r-x------   1 alvinnguyen41 alvinnguyen41     10034 Jan  1 12:39 ./plugins/metrics-slf4j/flink-metrics-slf4j-1.14.5.jar
+   179753      4 drwxrwxr-x   2 alvinnguyen41 alvinnguyen41      4096 Jan  1 12:39 ./plugins/metrics-datadog
+   179689    540 -r-x------   1 alvinnguyen41 alvinnguyen41    551092 Jan  1 12:39 ./plugins/metrics-datadog/flink-metrics-datadog-1.14.5.jar
+   179739      4 drwxrwxr-x   2 alvinnguyen41 alvinnguyen41      4096 Jan  1 12:39 ./plugins/external-resource-gpu
+   179676      4 -r-x------   1 alvinnguyen41 alvinnguyen41      3189 Jan  1 12:39 ./plugins/external-resource-gpu/gpu-discovery-common.sh
+   179201      4 -r-x------   1 alvinnguyen41 alvinnguyen41      1794 Jan  1 12:39 ./plugins/external-resource-gpu/nvidia-gpu-discovery.sh
+   179164     16 -r-x------   1 alvinnguyen41 alvinnguyen41     15732 Jan  1 12:39 ./plugins/external-resource-gpu/flink-external-resource-gpu-1.14.5.jar
+   179773      4 drwxrwxr-x   2 alvinnguyen41 alvinnguyen41      4096 Jan  1 12:39 ./plugins/metrics-graphite
+   179639    172 -r-x------   1 alvinnguyen41 alvinnguyen41    175143 Jan  1 12:39 ./plugins/metrics-graphite/flink-metrics-graphite-1.14.5.jar
+   179764      4 drwxrwxr-x   2 alvinnguyen41 alvinnguyen41      4096 Jan  1 12:39 ./plugins/metrics-statsd
+   179215     12 -r-x------   1 alvinnguyen41 alvinnguyen41     11905 Jan  1 12:39 ./plugins/metrics-statsd/flink-metrics-statsd-1.14.5.jar
+   179727     20 -rwx------   1 alvinnguyen41 alvinnguyen41     17318 Jan  1 12:39 ./launch_container.sh
+   179731      4 -rwx------   1 alvinnguyen41 alvinnguyen41       713 Jan  1 12:39 ./default_container_executor_session.sh
+   179724      4 -rw-r--r--   1 alvinnguyen41 alvinnguyen41        74 Jan  1 12:39 ./container_tokens
+   179143      4 -r-x------   1 alvinnguyen41 alvinnguyen41      1010 Jan  1 12:39 ./flink-conf.yaml
+   179732      4 -rw-r--r--   1 alvinnguyen41 alvinnguyen41        16 Jan  1 12:39 ./.default_container_executor_session.sh.crc
+   179734      4 -rw-r--r--   1 alvinnguyen41 alvinnguyen41        16 Jan  1 12:39 ./.default_container_executor.sh.crc
+   179730      4 -rw-r--r--   1 alvinnguyen41 alvinnguyen41       144 Jan  1 12:39 ./.launch_container.sh.crc
+   179725      4 -rw-r--r--   1 alvinnguyen41 alvinnguyen41        12 Jan  1 12:39 ./.container_tokens.crc
+   179743      4 drwxrwxr-x   2 alvinnguyen41 alvinnguyen41      4096 Jan  1 12:39 ./lib
+   179228     24 -r-x------   1 alvinnguyen41 alvinnguyen41     24279 Jan  1 12:39 ./lib/log4j-slf4j-impl-2.17.1.jar
+   179709  38740 -r-x------   1 alvinnguyen41 alvinnguyen41  39666418 Jan  1 12:39 ./lib/flink-table_2.12-1.14.5.jar
+   179642   1752 -r-x------   1 alvinnguyen41 alvinnguyen41   1790452 Jan  1 12:39 ./lib/log4j-core-2.17.1.jar
+   179701   7532 -r-x------   1 alvinnguyen41 alvinnguyen41   7709731 Jan  1 12:39 ./lib/flink-shaded-zookeeper-3.4.14.jar
+   179147    296 -r-x------   1 alvinnguyen41 alvinnguyen41    301872 Jan  1 12:39 ./lib/log4j-api-2.17.1.jar
+   179151    152 -r-x------   1 alvinnguyen41 alvinnguyen41    153142 Jan  1 12:39 ./lib/flink-json-1.14.5.jar
+   179686    204 -r-x------   1 alvinnguyen41 alvinnguyen41    208006 Jan  1 12:39 ./lib/log4j-1.2-api-2.17.1.jar
+   179695     84 -r-x------   1 alvinnguyen41 alvinnguyen41     85586 Jan  1 12:39 ./lib/flink-csv-1.14.5.jar
+   179733      4 -rwx------   1 alvinnguyen41 alvinnguyen41       768 Jan  1 12:39 ./default_container_executor.sh
+   179187 232680 -r-x------   1 alvinnguyen41 alvinnguyen41 238257746 Jan  1 12:39 ./Alvin24-1.0-SNAPSHOT.jar
+   179172     20 -r-x------   1 alvinnguyen41 alvinnguyen41     18127 Jan  1 12:39 ./job.graph
+broken symlinks(find -L . -maxdepth 5 -type l -ls):
