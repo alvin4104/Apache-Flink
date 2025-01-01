@@ -2,7 +2,9 @@ package org.ShopSphereFlinkHDFS;
 
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
-import org.apache.flink.api.common.functions.MapFunction;
+import org.apache.flink.api.java.tuple.Tuple2;
+import org.apache.flink.api.common.functions.FlatMapFunction;
+import org.apache.flink.util.Collector;
 import org.apache.flink.core.fs.FileSystem.WriteMode;
 
 public class ShopSphereFlinkHDFS {
@@ -18,23 +20,26 @@ public class ShopSphereFlinkHDFS {
             // Đọc dữ liệu từ HDFS
             DataSet<String> inputData = env.readTextFile(hdfsInputPath);
 
-            // Xử lý dữ liệu (chuyển toàn bộ ký tự thành chữ hoa)
-            inputData
-                    .map(new MapFunction<String, String>() {
-                        private static final long serialVersionUID = 1L;
-
+            // Xử lý dữ liệu (tách từ, đếm số lần xuất hiện của mỗi từ)
+            DataSet<Tuple2<String, Integer>> wordCounts = inputData
+                    .flatMap(new FlatMapFunction<String, Tuple2<String, Integer>>() {
                         @Override
-                        public String map(String value) {
-                            return value.toUpperCase();
+                        public void flatMap(String line, Collector<Tuple2<String, Integer>> out) {
+                            // Tách dòng thành các từ và gửi ra ngoài
+                            String[] words = line.split("\\s+");
+                            for (String word : words) {
+                                out.collect(new Tuple2<>(word, 1)); // Thu thập từ và số lần xuất hiện (1)
+                            }
                         }
                     })
-                    .rebalance() // Phân phối lại các phân vùng của dữ liệu
-                    .setParallelism(8) // Thiết lập mức độ parallelism cho quá trình xử lý
-                    .writeAsText(hdfsOutputPath, WriteMode.OVERWRITE) // Ghi kết quả ra HDFS
-                    .setParallelism(8); // Cũng có thể thiết lập parallelism cho quá trình ghi
+                    .groupBy(0) // Nhóm theo từ (field 0)
+                    .sum(1); // Tính tổng số lần xuất hiện của mỗi từ
+
+            // Ghi kết quả ra HDFS
+            wordCounts.writeAsText(hdfsOutputPath, WriteMode.OVERWRITE);
 
             // Thực thi chương trình Flink
-            env.execute("ShopSphere Flink-HDFS Integration");
+            env.execute("ShopSphere Flink-HDFS Word Count");
 
         } catch (Exception e) {
             System.err.println("Error: " + e.getMessage());
