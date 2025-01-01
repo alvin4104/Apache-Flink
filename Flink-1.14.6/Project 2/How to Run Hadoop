@@ -3,7 +3,13 @@ hdfs namenode -format
 start-all.sh
 hdfs dfs -mkdir /user/alvinnguyen41/ShopSphere/input
 hdfs dfs -put /mnt/c/ShopSphere_UK_Data.csv /user/alvinnguyen41/ShopSphere/input
-ls -l src/main/java/org/ShopSphereFlinkKafka/
-javac -cp "$HADOOP_HOME/share/hadoop/common/*:$HADOOP_HOME/share/hadoop/mapreduce/*:$HADOOP_HOME/share/hadoop/hdfs/*" -d . src/main/java/org/ShopSphereFlinkKafka/*.java
-hadoop jar Alvin24-1.0-SNAPSHOT.jar org.ShopSphereFlinkKafka.ShopSphereFlinkKafka.java /user/alvinnguyen41/ShopSphere/input /user/alvinnguyen41/ShopSphere/output
-hdfs dfs -cat /user/alvin/output/part-r-00000
+hadoop fs -chmod +w /user/alvin/ShopSphere/output
+      or  hadoop fs -chown alvinnguyen41:supergroup /user/alvin/ShopSphere/output
+scp "/mnt/c/Users/Alvin Nguyen/IdeaProjects/Alvin24/target/Alvin24-1.0-SNAPSHOT.jar" alvinnguyen41@alvinnguyen41:/home/alvinnguyen41/flink-1.14.5
+flink run -m yarn-cluster -yjm 1028m -ytm 2048m -p 1 -c org.ShopSphereFlinkHDFS.ShopSphereFlinkHDFS /home/alvinnguyen41/flink-1.14.5/Alvin24-1.0-SNAPSHOT.jar /user/alvin/ShopSphere/input/ShopSphere_UK_Data.csv /user/alvin/ShopSphere/output
+alvinnguyen41@alvinnguyen41:~$ hadoop fs -ls /user/alvin/ShopSphere/output/
+Found 4 items
+-rw-r--r--   1 alvinnguyen41 supergroup       5604 2025-01-01 14:27 /user/alvin/ShopSphere/output/1
+-rw-r--r--   1 alvinnguyen41 supergroup       5613 2025-01-01 14:27 /user/alvin/ShopSphere/output/2
+-rw-r--r--   1 alvinnguyen41 supergroup       4899 2025-01-01 14:27 /user/alvin/ShopSphere/output/3
+-rw-r--r--   1 alvinnguyen41 supergroup       6187 2025-01-01 14:27 /user/alvin/ShopSphere/output/4
