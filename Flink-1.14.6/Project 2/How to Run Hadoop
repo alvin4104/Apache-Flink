@@ -13,3 +13,4 @@ Found 4 items
 -rw-r--r--   1 alvinnguyen41 supergroup       5613 2025-01-01 14:27 /user/alvin/ShopSphere/output/2
 -rw-r--r--   1 alvinnguyen41 supergroup       4899 2025-01-01 14:27 /user/alvin/ShopSphere/output/3
 -rw-r--r--   1 alvinnguyen41 supergroup       6187 2025-01-01 14:27 /user/alvin/ShopSphere/output/4
+hadoop fs -cat /user/alvin/ShopSphere/output/1  (or 2,3,4)
