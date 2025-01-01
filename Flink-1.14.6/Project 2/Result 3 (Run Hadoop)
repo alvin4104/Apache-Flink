@@ -1,0 +1,23 @@
+alvinnguyen41@alvinnguyen41:~/flink-1.14.5$  flink run -m yarn-cluster -yjm 1028m -ytm 2048m -p 1 -c org.ShopSphereFlinkHDFS.ShopSphereFlinkHDFS /home/alvinnguyen41/flink-1.14.5/Alvin24-1.0-SNAPSHOT.jar /user/alvin/ShopSphere/input/ShopSphere_UK_Data.csv /user/alvin/ShopSphere/output
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/alvinnguyen41/flink-1.14.5/lib/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/alvinnguyen41/hadoop-3.4.1/share/hadoop/common/lib/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+2025-01-01 14:25:50,845 WARN  org.apache.flink.yarn.configuration.YarnLogConfigUtil        [] - The configuration directory ('/home/alvinnguyen41/flink-1.14.5/conf') already contains a LOG4J config file.If you want to use logback, then please delete or rename the log configuration file.
+2025-01-01 14:25:51,003 INFO  org.apache.hadoop.yarn.client.DefaultNoHARMFailoverProxyProvider [] - Connecting to ResourceManager at /0.0.0.0:8032
+2025-01-01 14:25:51,383 INFO  org.apache.flink.yarn.YarnClusterDescriptor                  [] - No path for the flink jar passed. Using the location of class org.apache.flink.yarn.YarnClusterDescriptor to locate the jar
+2025-01-01 14:25:51,859 INFO  org.apache.hadoop.conf.Configuration                         [] - resource-types.xml not found
+2025-01-01 14:25:51,860 INFO  org.apache.hadoop.yarn.util.resource.ResourceUtils           [] - Unable to find 'resource-types.xml'.
+2025-01-01 14:25:52,094 INFO  org.apache.flink.yarn.YarnClusterDescriptor                  [] - The configured JobManager memory is 1028 MB. YARN will allocate 2048 MB to make up an integer multiple of its minimum allocation memory (1024 MB, configured via 'yarn.scheduler.minimum-allocation-mb'). The extra 1020 MB may not be used by Flink.
+2025-01-01 14:25:52,095 INFO  org.apache.flink.yarn.YarnClusterDescriptor                  [] - Cluster specification: ClusterSpecification{masterMemoryMB=1028, taskManagerMemoryMB=2048, slotsPerTaskManager=2}
+2025-01-01 14:25:56,511 INFO  org.apache.flink.yarn.YarnClusterDescriptor                  [] - Submitting application master application_1735741534841_0001
+2025-01-01 14:25:57,299 INFO  org.apache.hadoop.yarn.client.api.impl.YarnClientImpl        [] - Submitted application application_1735741534841_0001
+2025-01-01 14:25:57,299 INFO  org.apache.flink.yarn.YarnClusterDescriptor                  [] - Waiting for the cluster to be allocated
+2025-01-01 14:25:57,306 INFO  org.apache.flink.yarn.YarnClusterDescriptor                  [] - Deploying cluster, current state ACCEPTED
+2025-01-01 14:26:24,192 INFO  org.apache.flink.yarn.YarnClusterDescriptor                  [] - YARN application has been deployed successfully.
+2025-01-01 14:26:24,193 INFO  org.apache.flink.yarn.YarnClusterDescriptor                  [] - Found Web Interface localhost:44961 of application 'application_1735741534841_0001'.
+Job has been submitted with JobID e1e8437acd7fe949f75cd3465f31de18
+Program execution finished
+Job with JobID e1e8437acd7fe949f75cd3465f31de18 has finished.
+Job Runtime: 71003 ms
